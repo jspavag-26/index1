@@ -59,18 +59,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="Index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Index_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="Index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="Index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="Index_files/libs/quarto-html/popper.min.js"></script>
-<script src="Index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Index_files/libs/quarto-html/quarto-syntax-highlighting-4c7b890cc350be7067044af900615741.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Index_files/libs/bootstrap/bootstrap-55d73c668ca809320c35260ddc76067b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-4c7b890cc350be7067044af900615741.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-55d73c668ca809320c35260ddc76067b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <style>html{ scroll-behavior: smooth; }</style>
 <style>
 
@@ -78,9 +78,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         background: #FF8775;
       }
 </style>
-<script src="Index_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<script src="index_files/libs/kePrint-0.0.1/kePrint.js"></script>
 
-<link href="Index_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<link href="index_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
   <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
@@ -161,7 +161,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Fecha de publicación</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">21 de abril de 2026</p>
+        <p class="date">24 de abril de 2026</p>
       </div>
     </div>
     
@@ -510,14 +510,14 @@ H_k = 1
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(Educacion,<span class="dv">4</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 4 × 10
+<pre><code># A tibble: 4 x 10
      ID Genero   Estudios    Estrato Cursos Horas Promedio `Asistencia (%)`
   &lt;dbl&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;            &lt;dbl&gt;
 1     1 Femenino Universidad Alto         5 26.8      4.37             51.3
 2     2 Femenino Universidad Bajo         4  9.05     4.9              51.1
 3     3 Femenino Secundaria  Medio        8 28.2      1.26             92.4
 4     4 Femenino Universidad Bajo         6 17.9      1.96             64.8
-# ℹ 2 more variables: Tecnologia &lt;chr&gt;, Satisfaccion &lt;chr&gt;</code></pre>
+# i 2 more variables: Tecnologia &lt;chr&gt;, Satisfaccion &lt;chr&gt;</code></pre>
 </div>
 </div>
 <p><strong>Estructura de las variables</strong></p>
@@ -529,16 +529,16 @@ H_k = 1
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 300
 Columns: 10
-$ ID               &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16…
-$ Genero           &lt;chr&gt; "Femenino", "Femenino", "Femenino", "Femenino", "Masc…
-$ Estudios         &lt;chr&gt; "Universidad", "Universidad", "Secundaria", "Universi…
-$ Estrato          &lt;chr&gt; "Alto", "Bajo", "Medio", "Bajo", "Alto", "Bajo", "Baj…
-$ Cursos           &lt;dbl&gt; 5, 4, 8, 6, 4, 2, 2, 6, 8, 4, 6, 2, 2, 6, 8, 5, 1, 8,…
-$ Horas            &lt;dbl&gt; 26.82, 9.05, 28.19, 17.86, 15.87, 27.63, 3.31, 14.81,…
-$ Promedio         &lt;dbl&gt; 4.37, 4.90, 1.26, 1.96, 3.60, 4.58, 1.47, 3.89, 4.65,…
-$ `Asistencia (%)` &lt;dbl&gt; 51.29, 51.06, 92.35, 64.85, 57.01, 76.11, 84.15, 93.2…
-$ Tecnologia       &lt;chr&gt; "Bajo", "Bajo", "Bajo", "Medio", "Alto", "Medio", "Ba…
-$ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy baj…</code></pre>
+$ ID               &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16~
+$ Genero           &lt;chr&gt; "Femenino", "Femenino", "Femenino", "Femenino", "Masc~
+$ Estudios         &lt;chr&gt; "Universidad", "Universidad", "Secundaria", "Universi~
+$ Estrato          &lt;chr&gt; "Alto", "Bajo", "Medio", "Bajo", "Alto", "Bajo", "Baj~
+$ Cursos           &lt;dbl&gt; 5, 4, 8, 6, 4, 2, 2, 6, 8, 4, 6, 2, 2, 6, 8, 5, 1, 8,~
+$ Horas            &lt;dbl&gt; 26.82, 9.05, 28.19, 17.86, 15.87, 27.63, 3.31, 14.81,~
+$ Promedio         &lt;dbl&gt; 4.37, 4.90, 1.26, 1.96, 3.60, 4.58, 1.47, 3.89, 4.65,~
+$ `Asistencia (%)` &lt;dbl&gt; 51.29, 51.06, 92.35, 64.85, 57.01, 76.11, 84.15, 93.2~
+$ Tecnologia       &lt;chr&gt; "Bajo", "Bajo", "Bajo", "Medio", "Alto", "Medio", "Ba~
+$ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy baj~</code></pre>
 </div>
 </div>
 <p><strong>Número de variables</strong></p>
@@ -591,16 +591,16 @@ $ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 300
 Columns: 10
-$ ID               &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16…
-$ Genero           &lt;chr&gt; "Femenino", "Femenino", "Femenino", "Femenino", "Masc…
-$ Estudios         &lt;ord&gt; Universidad, Universidad, Secundaria, Universidad, Un…
-$ Estrato          &lt;ord&gt; Alto, Bajo, Medio, Bajo, Alto, Bajo, Bajo, Medio, Med…
-$ Cursos           &lt;dbl&gt; 5, 4, 8, 6, 4, 2, 2, 6, 8, 4, 6, 2, 2, 6, 8, 5, 1, 8,…
-$ Horas            &lt;dbl&gt; 26.82, 9.05, 28.19, 17.86, 15.87, 27.63, 3.31, 14.81,…
-$ Promedio         &lt;dbl&gt; 4.37, 4.90, 1.26, 1.96, 3.60, 4.58, 1.47, 3.89, 4.65,…
-$ `Asistencia (%)` &lt;dbl&gt; 51.29, 51.06, 92.35, 64.85, 57.01, 76.11, 84.15, 93.2…
-$ Tecnologia       &lt;chr&gt; "Bajo", "Bajo", "Bajo", "Medio", "Alto", "Medio", "Ba…
-$ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy baj…</code></pre>
+$ ID               &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16~
+$ Genero           &lt;chr&gt; "Femenino", "Femenino", "Femenino", "Femenino", "Masc~
+$ Estudios         &lt;ord&gt; Universidad, Universidad, Secundaria, Universidad, Un~
+$ Estrato          &lt;ord&gt; Alto, Bajo, Medio, Bajo, Alto, Bajo, Bajo, Medio, Med~
+$ Cursos           &lt;dbl&gt; 5, 4, 8, 6, 4, 2, 2, 6, 8, 4, 6, 2, 2, 6, 8, 5, 1, 8,~
+$ Horas            &lt;dbl&gt; 26.82, 9.05, 28.19, 17.86, 15.87, 27.63, 3.31, 14.81,~
+$ Promedio         &lt;dbl&gt; 4.37, 4.90, 1.26, 1.96, 3.60, 4.58, 1.47, 3.89, 4.65,~
+$ `Asistencia (%)` &lt;dbl&gt; 51.29, 51.06, 92.35, 64.85, 57.01, 76.11, 84.15, 93.2~
+$ Tecnologia       &lt;chr&gt; "Bajo", "Bajo", "Bajo", "Medio", "Alto", "Medio", "Ba~
+$ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy baj~</code></pre>
 </div>
 </div>
 <section id="variable-nominal" class="level2" data-number="3.1">
@@ -719,7 +719,7 @@ $ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -759,7 +759,7 @@ $ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -914,7 +914,7 @@ $ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1093,7 +1093,7 @@ $ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1133,7 +1133,7 @@ $ Satisfaccion     &lt;chr&gt; "Muy alta", "Media", "Muy alta", "Muy alta", "Muy
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1518,7 +1518,7 @@ Distribución de frecuencias para la variable Horas
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-27-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-27-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1552,7 +1552,7 @@ Distribución de frecuencias para la variable Horas
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1588,7 +1588,7 @@ Distribución de frecuencias para la variable Horas
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-29-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-29-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1820,7 +1820,7 @@ Distribución de frecuencias para la variable Horas
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-32-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-32-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1858,7 +1858,7 @@ Distribución de frecuencias para la variable Horas
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-33-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-33-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -1897,7 +1897,7 @@ Distribución de frecuencias para la variable Horas
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Index_files/figure-html/unnamed-chunk-34-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-34-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -2325,5 +2325,5 @@ Distribución de frecuencias para la variable Horas
 
 
 
-<script src="Index_files/libs/quarto-html/zenscroll-min.js"></script>
+<script src="index_files/libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
